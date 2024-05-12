@@ -16,7 +16,7 @@ class GameSprite(sprite.Sprite):
     def reset(self):
         window.blit(self.image, (self.rect.x, self.rect.y))
 
-)
+
 class Player(GameSprite):
     def update_r(self):
         keys = key.get_pressed()
